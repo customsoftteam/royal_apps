@@ -24,9 +24,7 @@ include("inc/header.inc.php");
 	}
 	
 
-	$response=author_list_curl_request($_SESSION['token']);
 
-	$author_list=json_decode($response);
 		?>
       
            <div class="content-body">
